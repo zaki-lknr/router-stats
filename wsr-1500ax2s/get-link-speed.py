@@ -22,13 +22,6 @@ class MyHTMLParser(HTMLParser):
             print(data)
             self._link = False
 
-# f = open('info.html')
-# html = f.read()
-# f.close()
-
-# parser = MyHTMLParser()
-# parser.feed(html)
-
 addr = os.environ.get("ROUTER_ADDR")
 username = 'admin'
 password = os.environ.get("ROUTER_PASS")
